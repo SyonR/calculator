@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+#calculator { 
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 350px;
+    height: 425px;
+    align-items: center;
+}
+
+#displayWindow {
+    box-sizing: border-box;
+    width: 300px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 25px 0 25px 0;
+}
+
+#calculatorBody {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#digitsBox {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 175px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+#operationsBox {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 125px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.digitButtons {
+    width: 50px;
+    height: 50px;
+}
+
+.operButtons {
+    width: 50px;
+    height: 50px;
+}
+
+.equalButton {
+    width: 100px;
+    height: 50px;
+}
