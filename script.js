@@ -166,4 +166,3 @@ for (let i = 0; i < arrOper.length; i++) {
 }
 
 
-
